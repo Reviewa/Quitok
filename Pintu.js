@@ -1,5 +1,6 @@
 /****
-项目名称：拼图软件（Collage Maker+） 下载地址：https://apps.apple.com/cn/app/%E6%8B%BC%E5%9B%BE%E8%BD%AF%E4%BB%B6/id1553432214 更新日期：2025-06-10 脚本作者：Perplexity AI 使用声明：⚠️仅供参考，🈲转载与售卖！
+项目名称：拼图软件（Collage Maker+） 下载地址：https://apps.apple.com/cn/app/%E6%8B%BC%E5%9B%BE%E8%BD%AF%E4%BB%B6/id1553432214 更新日期：2025-06-10
+*****************
 rewrite_local ^https?://(api|user|vip|purchase).livintis.com/.* url script-response-body https://raw.githubusercontent.com/Review/Quit/main/Pintu.js
 mitm hostname = *.livintis.com
 ****/
